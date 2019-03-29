@@ -8,6 +8,23 @@
   position: relative;
 }
 
-/* .show-container{
+.show-container{
   border:0.25px solid gold;
-} */
+}
+
+.space-top{
+  padding-top: 3rem;
+}
+
+.project-image{
+  max-width: 800px;
+  max-height: 200px;
+}
+
+#my-project-text{
+  width:38em;
+}
+
+#user-link{
+  color: black;
+}
