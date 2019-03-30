@@ -9,7 +9,7 @@
 }
 
 .show-container{
-  border:0.25px solid gold;
+  border:1px solid red;
 }
 
 .space-top{
@@ -19,6 +19,8 @@
 .project-image{
   max-width: 800px;
   max-height: 200px;
+  margin: auto;    
+  display: block;
 }
 
 #my-project-text{
@@ -27,4 +29,30 @@
 
 #user-link{
   color: black;
+}
+
+#project-searchbar{
+  float: none;
+  background-color: lightskyblue;
+  text-emphasis-color: black;
+  display: block;
+  text-align: left;
+  width: 100%;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+#example-logo-image{
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.profile-image{
+  max-width: 100px;
+  max-height: 100px;
+  border-radius: 50%;
+
 }
